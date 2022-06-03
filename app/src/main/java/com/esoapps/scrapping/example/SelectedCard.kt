@@ -8,6 +8,3 @@ class SelectedCard(var imgUrl:String,
                    var desc:String,
                    var articleRef:String,
 ) : Serializable
-//    , Parcelable {
-//
-//}

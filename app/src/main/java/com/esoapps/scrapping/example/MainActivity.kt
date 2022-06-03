@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity(), SelectCardRecyclerViewAdapter.OnSelect
 
         rv=findViewById(R.id.rv)
         rv!!.layoutManager = LinearLayoutManager(this)
-        //rv!!.setHasFixedSize(true)//WRAP CONTENT
 
 
 

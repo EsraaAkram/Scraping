@@ -63,8 +63,6 @@ class SelectCardRecyclerViewAdapter(selectedCardsList: List<SelectedCard>,
 
             Picasso.get()
                 .load(storedCardImgUri)
-                //.error(R.drawable.default_card_icon)
-                //.placeholder(R.drawable.select_card_a)
                 .error(R.drawable.ic_launcher_background)
                 //.fit()
                 //.resize(50,50)
@@ -145,14 +143,6 @@ class SelectCardRecyclerViewAdapter(selectedCardsList: List<SelectedCard>,
     }
 
 
-//    //TO AVOID REDRAW COUNT BUTTONS IN A DIFFERENT IMGS
-//    override fun getItemId(position: Int): Long {
-//        return position.toLong()
-//    }
-//
-//    override fun getItemViewType(position: Int): Int {
-//        return position
-//    }
 
 
 }
