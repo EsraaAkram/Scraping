@@ -34,6 +34,7 @@ class DetailsAct : AppCompatActivity() {
             var selectedCard:SelectedCard= extras.getSerializable("articleDetails") as SelectedCard
             //var selectedCard1:SelectedCard= intent.getSerializableExtra("articleDetails") as SelectedCard
 
+
             Log.d("articleDetails",selectedCard.imgUrl)
             //Log.d("articleDetails",selectedCard1.imgUrl)
 
